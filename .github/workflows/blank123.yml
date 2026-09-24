@@ -1,0 +1,12 @@
+name: My Third Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: printing message
+        run: echo "Hello World"
