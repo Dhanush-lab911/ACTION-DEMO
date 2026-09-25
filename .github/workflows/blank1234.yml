@@ -1,0 +1,12 @@
+name: Push Practice2
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Push Message
+        run: echo "Code was pushed!"
